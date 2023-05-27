@@ -1,3 +1,6 @@
+//docker build -t rust-image .
+//docker run -it -p 8080:8080 --rm --name rust-playground rust-image
+
 use std::fs;
 
 use actix_web::{get, web, App, HttpServer, Responder};
@@ -7,8 +10,10 @@ async fn index(web::Path(()): web::Path<()>) -> impl Responder {
 }
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    // echo server started
+    println!("Server started at http://0.0.0.0:8080");
     HttpServer::new(|| App::new().service(index))
-        .bind("127.0.0.1:8080")?
+        .bind("0.0.0.0:8080")?
         .run()
         .await
 }
