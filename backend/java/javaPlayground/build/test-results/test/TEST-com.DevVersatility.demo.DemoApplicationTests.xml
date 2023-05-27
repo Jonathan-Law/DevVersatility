@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.DevVersatility.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-27T05:19:48" hostname="Jonathans-MacBook-Pro.local" time="0.391">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.DevVersatility.demo.DemoApplicationTests" time="0.391"/>
+  <system-out><![CDATA[23:19:48.235 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.DevVersatility.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:19:48.267 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.DevVersatility.demo.DemoApplication for test class com.DevVersatility.demo.DemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-05-26T23:19:48.396-06:00  INFO 70199 --- [    Test worker] c.D.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 17.0.7 with PID 70199 (started by jonathanlaw in /Users/jonathanlaw/Code/DevVersatility/backend/java/javaPlayground)
+2023-05-26T23:19:48.396-06:00  INFO 70199 --- [    Test worker] c.D.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2023-05-26T23:19:48.693-06:00  INFO 70199 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-26T23:19:48.736-06:00  INFO 70199 --- [    Test worker] c.D.demo.DemoApplicationTests            : Started DemoApplicationTests in 0.42 seconds (process running for 0.812)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
