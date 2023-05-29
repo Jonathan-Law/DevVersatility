@@ -1,0 +1,81 @@
+.navigation {
+  position: fixed;
+  left: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  transition: width 0.3s ease, left 0.3s ease;
+  background-repeat: no-repeat;
+  padding: 12px 12px 12px 12px;
+  width: 150px;
+  margin-right: 40px;
+  border: 2px solid #fff;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.navigation.minimized {
+  width: 50px;
+}
+
+.navigation.isHidden {
+  position: fixed;
+  left: -40px;
+}
+
+.hideOnMinimized {
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.hideOnMinimized.minimized {
+  width: 0px;
+}
+.hideOnMinimized:not(.minimized) {
+  width: 100px;
+}
+
+
+.toggleButton {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.menuItems {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItems li {
+  margin-bottom: 10px;
+}
+
+.menuItems a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.menuItems a:hover {
+  color: #93ad93;
+}
+
+.menuItems a svg {
+  margin-right: 10px;
+  min-width: 24px;
+  max-width: 24px;
+}
+
+.navItem {
+  max-height: 24px;
+  min-height: 24px;
+}

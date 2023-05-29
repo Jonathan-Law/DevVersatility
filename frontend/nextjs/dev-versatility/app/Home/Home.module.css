@@ -1,0 +1,29 @@
+/* CSS for the welcome message */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #333;
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: white;
+}
+
+.logo {
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.welcome-container img {
+    max-width: 100%;
+}

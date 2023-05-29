@@ -1,10 +1,14 @@
 # JavaPlayground
 
 ## startup
+```
 ./gradlew build && java -jar ./build/libs/demo-0.0.1-SNAPSHOT.jar
--- or --
-docker build -t java-playground
+```
+-- or --  
+```
+docker build -t java-playground  
 docker run -it -p 8080:8080 --rm --name java-playground java-playground
+```
 
 ## Gradle Help
 ### Reference Documentation
